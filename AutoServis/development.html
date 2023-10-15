@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIKTA Auto Services: Auto Services Company in Toronto</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="css/responsive.css" rel="stylesheet">
+    <style>
+        body {
+           line-height:1;
+        }
+
+.devWrap{
+	background-image: url(images/banne.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+}
+
+.banerDev {
+    padding-top: 44vh;
+    display: flex;
+    justify-content: center;
+}
+.banerDev h1{
+	color:#ffffff;
+	font-size: 2.8rem;
+    letter-spacing: 1px;
+	font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+    </style>
+</head>
+<body>
+
+    <main>
+        <!--Start Main Navigation-->
+        <div id="mobile-nav1" class="mobile-nav">
+        
+            <a href="index.html">
+                <img src="images/bgLogo.png" class="logoImg" alt="Logo">
+            </a>
+        
+            <div id="color-menu" role="navigation">
+                <ul>
+                    <li>
+                        <a href="index.html" class="nav-link bg-home">
+                            HOME
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="nav-link bg-services">
+                            Oil Changes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="nav-link bg-control">
+                            Control system
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="nav-link bg-transmission">
+                            Transmission
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="nav-link bg-engine">
+                            Engine Tuning
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="nav-link bg-suspension">
+                            suspension
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="call me">+1(647)-964-69-49</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="color-footer">
+                <p>
+                    <small> Copyright &copy; All rights reserved 2023 </small>
+                </p>
+            </div>
+        </div>
+        </div>
+        <section id="home" class="section devWrap">
+        
+                <header class="topBloc">
+                    <div id="menu-togle" class="menu_icon">
+                        <div class="menu_icon_line"></div>
+                    </div>
+                    <div class="logoContact">
+                        <div class="site-logo">
+                            <a href="index.html">
+                                <img src="images/logoNext.png" class="logoImg" alt="Logo">
+                            </a>
+                        </div>
+                        <ul class="list-contact">
+                            <li class="item_contact">
+                                <span class="data_contact">+1(647)-964-69-49</span>
+                            </li>
+                            <li class="item_contact">
+                                <a href="mailto:nikta.info@gmail.com" target="_blank" class="data_contact">nikta.info@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                
+                    <div class="linkBloc">
+                        <nav class="nav">
+                            <a href="index.html" class="nav-link bg-home">
+                                HOME
+                            </a>
+                            <a href="index.html" class="nav-link bg-services">
+                                Oil
+                            </a>
+                            <a href="index.html" class="nav-link bg-control">
+                                Control
+                            </a>
+                            <a href="index.html" class="nav-link bg-transmission">
+                                Transmission
+                            </a>
+                            <a href="index.html" class="nav-link bg-engine">
+                                Engine
+                            </a>
+                            <a href="index.html" class="nav-link bg-suspension">
+                                suspension
+                            </a>
+                            <a href="index.html" class="nav-link bg-contact">
+                                CONTACT
+                            </a>
+                        </nav>
+                    </div>
+                </header>
+        
+              
+                <div class="banerDev">
+                    <h1>this page is in development</h1>
+                </div>
+            
+        </section>
+        <!-- Start footer block -->
+        <footer class="fut">
+            <div class="container">
+                <div class="rowFut justify-content-between shel">
+                    <p class="colTop left">
+                        <a href="https://www.facebook.com/niktaautoservice" target="_blank"
+                            title="Follow me on Facebook">Facebook</a>
+                        <span>|</span>
+                        <a href="#" target="_blank" title="Follow me on Facebook">Instagram</a>
+                        <span>|</span>
+                        <a href="#" target="_blank" title="Follow me on Facebook">LinkedIn</a>
+                        <span>|</span>
+                        <a href="#" target="_blank" title="Follow me on Facebook">Youtube</a>
+                        <span>|</span>
+                        <a href="#" target="_blank" title="Follow me on Facebook">Pinterest</a>
+                    </p>
+                    <p class="colBott">
+                        <small> Multi Page Application &copy; All rights reserved 2022 </small>
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!-- finish footer block -->
+
+    
+    </main>
+    <script>
+        /**
+       * ------------------------------------------------------------------------
+       * BURGER BATTON
+       * ------------------------------------------------------------------------
+       */
+    const menuToggle = document.querySelector('#menu-togle');
+    const mibileNavConteiner = document.querySelector('#mobile-nav1');
+
+    menuToggle.onclick = function () {
+
+        menuToggle.classList.toggle('menu_icon_active');
+        mibileNavConteiner.classList.toggle('mobile-nav-sctiv');
+
+    }
+    window.addEventListener('scroll', () => { //анонимная функция
+        if (mibileNavConteiner.classList.contains('mobile-nav-sctiv')) {
+
+            mibileNavConteiner.classList.remove('mobile-nav-sctiv');
+            menuToggle.classList.remove('menu_icon_active');
+        }
+    });   
+
+    </script>
+   
+</body>
+</html>

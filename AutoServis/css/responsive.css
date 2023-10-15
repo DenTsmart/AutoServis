@@ -1,0 +1,367 @@
+/*start block home*/
+@media screen and (max-width: 964px) {
+    .servWrap {
+        background-position: 58% 0%;
+    }
+}
+@media screen and (max-width: 1351px) {
+    .nav-link{
+    margin-right: 5px;
+    }
+}
+@media screen and (max-width: 1032px) {
+    .nav-link {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 983px) {
+    .linkBloc{
+      display: none;
+    }
+    .site-logo{
+      display: none;
+    }
+    .logoContact{
+        justify-content: flex-end;
+    }
+}
+@media screen and (max-width: 536px) {
+    .data_contact {
+        font-size: 14px;
+    }
+    .section-title{
+      font-size: 1rem;
+    }
+}
+@media screen and (max-width: 469px) {
+    .list-contact {
+        flex-direction: column;
+        margin-top: 11px;
+        margin-right: 9px;
+    }
+    .item_contact{
+        margin: 0;
+    }
+    .topBloc{
+       height: 60px; 
+    }
+    .menu_icon{
+     left: 16px;
+     top: 28px;
+    }
+}
+
+@media screen and (max-width: 1185px) {
+    .banerServise{
+      padding-top: 36vh;
+      padding-left: 4vw;
+    }
+
+}
+@media screen and (max-width: 1262px) {
+    .col-right {
+        padding: 1px;
+        margin-top: 3vh; 
+    }
+}
+@media screen and (max-width: 1071px) {
+    .info-item {
+        padding: 12px;
+        width: 54vw;
+    }
+}
+@media screen and (max-width: 840px) {
+    .rowMedals {
+        flex-direction: column;
+    }
+    .info-item {
+        padding: 12px;
+        width: 93vw;
+        height: 13vh;
+    }
+    .banerServise {
+        padding-top: 10vh;
+    }
+    .col-right {  
+        margin-top: 1vh;
+    }
+}
+@media screen and (max-width: 443px) {
+    .rowMedals {
+      padding: 7px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .rowMedals {
+        padding: 4px;
+    }
+}
+@media screen and (max-width: 317px) {
+    .rowMedals {
+        padding: 2px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .banerServise {
+            padding-left: 2vw;
+        }
+}
+@media screen and (max-width: 760px) {
+    .info-item {
+        margin: 8px;
+    }
+}
+@media screen and (max-width: 985px) {
+    .row {
+      width: 77%;
+    }
+}
+@media screen and (max-width: 782px) {
+    .row {
+       display: flex;
+       flex-direction: column;
+       width: 55%;
+    }
+}
+
+/*finish block home*/
+
+
+
+/*start block services*/
+@media screen and (max-width: 1202px) {
+    .mainBlock {
+      flex-direction: column;
+    }
+        .contenLeft {
+            width: 100%;
+            min-height: 50vh;
+        }
+        .rightDesktop {
+            width: 100%;
+            min-height: 50vh;
+            position: absolute;
+            bottom:0;
+        }
+        .services {
+           height: 121vh;
+        }
+
+}
+@media screen and (min-width: 992px) {
+.button {
+    padding: 22px 53px;
+    font-size: 17px;
+}
+}
+@media screen and (max-width: 404px) {
+   .titlEservice {
+        font-size: 1.3rem;
+    }
+}
+
+/*finish block services*/
+
+
+/*Start block controlSystem*/
+@media screen and (min-width: 768px){ 
+.image-wrap {
+    width: 63vw;
+}
+}
+@media screen and (max-width: 1179px) {
+    .controlSystem {
+        background-position: 29% 0%;
+    }
+}
+@media screen and (max-width: 865px) {
+    .controlSystem {
+        background-position: 58% 0%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .row {
+       width: 72%;
+    }
+    .image-wrap {
+       width: 63vw;
+    }
+}
+@media screen and (max-width: 465px) {
+    .image-wrap {
+        display: none;
+    }
+    .controlSystem{
+        height: 100vh;
+    }
+    .banner{
+        width: 100vw;
+    }
+    .insetSystem{
+        padding-right: 0;
+    }
+        
+}
+/*finish block controlSystem*/
+
+
+
+/*Start block transmission*/
+@media screen and (max-width: 1202px) {
+    .wrapBlock {
+        flex-direction: column;
+    }
+
+    .itemLeft {
+        width: 100%;
+        min-height: 50vh;
+    }
+
+    .rightItem {
+        width: 100%;
+        min-height: 50vh;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .transmission {
+        height: 121vh;
+    }
+
+}
+@media screen and (max-width: 404px) {
+    .synopsisTransmission {
+        font-size: 1.3rem;
+    }
+}
+/*finish block transmission*/
+
+
+/*Start block engine*/
+@media only screen and (max-width: 1178px) {
+    .infoBox {
+        width: 44%;
+    }
+}
+@media only screen and (max-width: 466px) {
+    .infoBox {
+        width: 77%;
+    }
+}
+@media only screen and (min-width: 466px) {
+    .dopText {
+        display: none;
+    }
+}
+@media only screen and (max-width: 466px) {
+    .tintDark {
+        display: none;
+    }
+}
+@media (max-width: 895px) {
+    .init-animate {
+        font-size: 1.1rem;
+    }
+
+    .fade {
+        font-size: 1.5rem;
+    }
+
+    .infoBox {
+        padding: 0 2.5em;
+    }
+}
+
+@media (max-width: 682px) {
+    .init-animate {
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width: 466px) {
+    .init-animate {
+        display: none;
+    }
+}
+@media only screen and (max-width: 466px) {
+    .tintMedium {
+       background: rgb(255 191 0 / 65%);
+    }
+}
+/*finish block engine*/
+
+
+
+/*Start block suspension*/
+@media screen and (max-width: 1202px) {
+    .wrapSuspension {
+        flex-direction: column;
+    }
+
+    .leftBlokc {
+        width: 100%;
+        min-height: 50vh;
+    }
+
+    .rightBlock {
+        width: 100%;
+        min-height: 50vh;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .suspension {
+        height: 121vh;
+    }
+
+}
+
+@media screen and (max-width: 404px) {
+    .titlEsuspention {
+        font-size: 1.3rem;
+    }
+}
+/*finish block suspension*/
+
+
+
+/*Start block CONTACT US*/
+
+@media screen and (max-width: 901px) {
+    .title_welcome {
+        font-size: 4vw;
+        margin: 40px 0 40px 0;
+    }
+        .service-lable {
+            font-size: 2.4vw;
+        }
+        .fgvan {
+           flex-direction: column;
+            text-align: center;
+        }
+        .ban-email {       
+            margin-top: 40px;
+    }
+}
+@media screen and (max-width: 638px) {
+    .top-line {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 458px) {
+    .btn_costumn {
+        font-size: 3.9vw !important;
+    }
+        .title_welcome {
+            font-size: 2.5rem;
+            margin: 20px 0 20px 0;
+        }
+                .service-lable {
+                    font-size: 2rem;
+                }
+        .ban-text {
+            font-size: 1.8rem;
+     }
+}
+
+/*finish block CONTACT US*/
+
